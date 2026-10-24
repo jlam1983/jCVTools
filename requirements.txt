@@ -1,0 +1,10 @@
+# Python 套件
+#
+# 對齊的 `text` 方法另外需要 Tesseract（OCR 執行檔），
+# 那不是 pip 套件，要自己裝，並把路徑寫在
+# jCVTools/auto_align_rotate.py 開頭的 TESSERACT_DIR。
+#
+# 實測環境：Python 3.12.3 / opencv-python 5.0.0.93 / numpy 2.5.3
+
+opencv-python>=4.5
+numpy>=1.21
